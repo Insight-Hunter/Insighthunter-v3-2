@@ -1,0 +1,15 @@
+name = "insighthunter-onboarding"
+main = "backend/api/onboarding.ts"
+compatibility_date = "2025-10-03"
+type = "javascript"
+
+[build]
+command = "npm install && npm run build --workspace frontend"
+
+[dev]
+local_protocol = "http"
+port = 8787
+
+[site]
+bucket = "frontend/dist"
+entry-point = "frontend"

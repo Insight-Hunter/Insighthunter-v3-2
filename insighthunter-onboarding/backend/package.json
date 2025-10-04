@@ -1,0 +1,13 @@
+{
+  "name": "insighthunter-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/onboarding.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "echo 'No build step needed for backend'"
+  },
+  "dependencies": {
+    "itty-router": "^2.6.2"
+  }
+}

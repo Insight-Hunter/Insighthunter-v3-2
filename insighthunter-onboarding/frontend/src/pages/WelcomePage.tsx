@@ -1,0 +1,1 @@
+import React from "react"; import { useNavigate } from "react-router-dom"; const WelcomePage=()=>{ const navigate=useNavigate(); return (<div style={{padding:"2rem"}}><h1>Welcome to Insight Hunter</h1><p>Let's get started setting up your account.</p><button onClick={()=>navigate("/company")}>Start</button></div>); }; export default WelcomePage;
